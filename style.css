@@ -42,3 +42,36 @@ section {
   text-align: center;
   padding: 20px;
 }
+.ciao {
+  font-size: 2em;
+  font-weight: bold;
+  color: #5c8575; /* soft green */
+  margin-bottom: 10px;
+}
+
+.heart {
+  font-size: 1.3em;
+  font-style: italic;
+  color: #5c8575;
+  margin-top: 20px;
+}
+button, .cta {
+  background-color: #5c8575;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+button:hover, .cta:hover {
+  background-color: #4b6e61;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
