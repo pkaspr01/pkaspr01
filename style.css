@@ -1,197 +1,73 @@
-.intro {
-  max-width: 800px;
-  margin: 80px auto;
-  padding: 0 20px;
-  font-family: 'Georgia', serif;
-  font-size: 18px;
-  line-height: 1.8;
-  color: #333;
-  text-align: center;
-}
-
-.intro p {
-  margin-bottom: 25px;
-  color: #444;
-}
-.intro {
-  max-width: 800px;
-  margin: 80px auto;
-  padding: 0 20px;
-  font-family: 'Georgia', serif;
-  font-size: 18px;
-  line-height: 1.8;
-  color: #333;
-  text-align: center;
-}
-
-.intro p {
-  margin-bottom: 25px;
-  color: #444;
-}
-
-.intro .ciao {
-  font-weight: bold;
-  font-size: 22px;
-  color: #5c8575; /* greenish title */
-}
-
-.intro .heart {
-  font-style: italic;
-  color: #5c8575;
-  font-weight: 500;
-}
-
-/* GENERAL RESET */
 body {
   margin: 0;
   padding: 0;
   background-color: #fbfaf7; /* light beige background */
-  color: #333;
-  font-family: 'Helvetica Neue', sans-serif;
-}
-
-/* MAIN SECTION STYLING */
-section {
-  max-width: 700px;
-  margin: 100px auto;
-  text-align: center;
-  padding: 20px;
-}
-.ciao {
-  font-size: 2em;
-  font-weight: bold;
-  color: #5c8575; /* soft green */
-  margin-bottom: 10px;
-}
-
-.heart {
-  font-size: 1.3em;
-  font-style: italic;
-  color: #5c8575;
-  margin-top: 20px;
-}
-button, .cta {
-  background-color: #5c8575;
-  color: #fff;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  cursor: pointer;
-  margin-top: 20px;
-  text-decoration: none;
-}
-
-button:hover, .cta:hover {
-  background-color: #4b6e61;
-}
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
-body {
-  font-family: 'Quicksand', sans-serif;
-}
-.intro .ciao {
-  font-weight: bold;
-  font-size: 22px;
-  color: #5c8575; /* greenish title */
-}
-
-.intro .heart {
-  font-style: italic;
-  color: #5c8575;
-  font-weight: 500;
-}
-
-/* GENERAL RESET */
-body  {
-  margin: 0;
-  padding: 0;
-  background-color: #fbfaf7;
   color: #333;
   font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
 }
-{
-  margin: 0;
-  padding: 0;
-  background-color: #fbfaf7; /* light beige background */
-  color: #333;
-  font-family: 'Helvetica Neue', sans-serif;
-}
 
-/* MAIN SECTION STYLING */
-section {
-  max-width: 700px;
-  margin: 100px auto;
-  text-align: center;
-  padding: 20px;
-}
-.ciao {
-  font-size: 2em;
-  font-weight: bold;
-  color: #5c8575; /* soft green */
-  margin-bottom: 10px;
-}
-
-.heart {
-  font-size: 1.3em;
-  font-style: italic;
-  color: #5c8575;
-  margin-top: 20px;
-}
-button, .cta {
-  background-color: #5c8575;
-  color: #fff;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  cursor: pointer;
-  margin-top: 20px;
-  text-decoration: none;
-}
-/* Container for text and image side by side */
-.intro-flex-container {
+/* INTRO CONTAINER FOR TEXT + IMAGE SIDE BY SIDE */
+.intro-container {
   display: flex;
-  gap: 30px; /* space between text and image */
   max-width: 900px;
-  margin: 0 auto;
+  margin: 80px auto;
+  padding: 0 20px;
+  gap: 40px;
   align-items: flex-start;
 }
 
-/* Left side text */
+/* TEXT ON LEFT */
 .intro-text {
-  flex: 1; /* take available space */
-  text-align: left;
+  flex: 1;
   font-family: 'Georgia', serif;
   font-size: 18px;
   line-height: 1.8;
   color: #333;
+  text-align: left;
 }
 
-/* Right side image */
-.intro-image {
-  flex: 1; /* take available space */
-  max-width: 400px;
-}
-
-.intro-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-/* Greeting text style */
-.ciao {
+/* GREETING BOLD AND GREEN */
+.intro-text .ciao {
   font-weight: bold;
   font-size: 22px;
-  color: #5c8575;
-  text-align: left;
+  color: #5c8575; /* greenish */
   margin-bottom: 20px;
 }
 
-/* Heart word styling */
-.heart {
+/* ITALIC "heart" WORD */
+.intro-text .heart {
   font-style: italic;
   color: #5c8575;
   font-weight: 500;
+}
+
+/* PARAGRAPHS IN TEXT */
+.intro-text p {
+  margin-bottom: 25px;
+  color: #444;
+}
+
+/* IMAGE ON RIGHT */
+.intro-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.intro-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* OPTIONAL: Make it responsive on small screens */
+@media (max-width: 768px) {
+  .intro-container {
+    flex-direction: column;
+  }
+  .intro-image {
+    margin-top: 30px;
+  }
 }
