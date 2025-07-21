@@ -149,4 +149,49 @@ button, .cta {
   margin-top: 20px;
   text-decoration: none;
 }
+/* Container for text and image side by side */
+.intro-flex-container {
+  display: flex;
+  gap: 30px; /* space between text and image */
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
 
+/* Left side text */
+.intro-text {
+  flex: 1; /* take available space */
+  text-align: left;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Right side image */
+.intro-image {
+  flex: 1; /* take available space */
+  max-width: 400px;
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Greeting text style */
+.ciao {
+  font-weight: bold;
+  font-size: 22px;
+  color: #5c8575;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Heart word styling */
+.heart {
+  font-style: italic;
+  color: #5c8575;
+  font-weight: 500;
+}
