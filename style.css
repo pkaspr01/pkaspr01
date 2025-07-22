@@ -140,3 +140,11 @@ img {
   display: block;
   margin: 0 auto;
 }
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.ciao {
+  color: #c0121c;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.8em;
+  text-align: center;
+}
