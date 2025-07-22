@@ -148,3 +148,19 @@ img {
   font-size: 1.8em;
   text-align: center;
 }
+footer {
+  background-color: #5c8575;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #d0e3c2; 
+}
