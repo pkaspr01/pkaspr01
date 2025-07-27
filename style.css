@@ -328,3 +328,31 @@ footer a:hover {
   display: block;
   margin-bottom: 0;
 }
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  list-style: none;
+  background-color: white;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4c7268; /* Adjust this to your brand color */
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  color: #c0121c; /* Optional hover effect */
+}
+
+nav .active {
+  text-decoration: underline;
+}
