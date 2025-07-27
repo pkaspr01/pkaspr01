@@ -356,3 +356,175 @@ nav ul li a:hover {
 nav .active {
   text-decoration: underline;
 }
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  font-family: 'Georgia', serif;
+  color: #4c7268;
+}
+
+header h1 span {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  list-style: none;
+  background-color: white;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4c7268;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  color: #c0121c;
+}
+
+nav .active {
+  text-decoration: underline;
+}
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  font-family: 'Georgia', serif;
+  color: #4c7268;
+}
+
+header h1 span {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  list-style: none;
+  background-color: white;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4c7268;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  color: #c0121c;
+}
+
+nav .active {
+  text-decoration: underline;
+}
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  font-family: 'Georgia', serif;
+  color: #4c7268;
+}
+
+header h1 span {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  list-style: none;
+  background-color: white;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4c7268;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  color: #c0121c;
+}
+
+nav .active {
+  text-decoration: underline;
+}
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  font-family: 'Georgia', serif;
+  color: #4c7268;
+}
+
+header h1 span {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  list-style: none;
+  background-color: white;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4c7268;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  color: #c0121c;
+}
+
+nav .active {
+  text-decoration: underline;
+}
