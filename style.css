@@ -322,3 +322,9 @@ footer a:hover {
 .booking-form button:hover {
   background-color: #a01018;
 }
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
