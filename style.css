@@ -272,3 +272,53 @@ footer a:hover {
 .booking-form button:hover {
   background-color: #a00f17;
 }
+.booking-form {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.booking-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #c0121c;
+  font-size: 2rem;
+}
+
+.booking-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.booking-form button {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.75rem;
+  background-color: #c0121c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #a01018;
+}
