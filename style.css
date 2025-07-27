@@ -549,3 +549,34 @@ nav .active {
   max-width: 300px;
   height: auto;
 }
+.guide {
+  display: flex;
+  align-items: flex-start;
+  margin: 40px 0;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.guide-photo.left {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.guides h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .guide {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .guide-photo.left {
+    margin-bottom: 15px;
+  }
+}
