@@ -1,33 +1,75 @@
-<section class="booking-form">
-  <h2>Book Your Tour</h2>
-  <form action="#" method="POST">
-    <label for="name">Full Name:</label>
-    <input type="text" id="name" name="name" required>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Now | Alt London Tours</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <label for="email">Email Address:</label>
-    <input type="email" id="email" name="email" required>
+  <!-- Header with navigation -->
+  <header>
+    <img src="header-image.jpg" alt="Alt London Tours header image" class="header-image" />
+    <nav>
+      <h1>Alt<span>London</span> Tours</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="book.html" class="active">Book Now</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <label for="phone">Phone Number (optional):</label>
-    <input type="text" id="phone" name="phone">
+  <!-- Booking Form Section -->
+  <section class="booking-form">
+    <h2>Book Your Tour</h2>
+    <form action="#" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
 
-    <label for="tour">Preferred Tour:</label>
-    <select id="tour" name="tour">
-      <option value="harry">Harry Potter in London</option>
-      <option value="vintage">Vintage London</option>
-      <option value="highlights">London Highlights</option>
-      <option value="foodie">Tastes of London</option>
-      <option value="ripper">Jack the Ripper</option>
-    </select>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
 
-    <label for="date">Preferred Date:</label>
-    <input type="date" id="date" name="date" required>
+      <label for="phone">Phone Number (optional):</label>
+      <input type="text" id="phone" name="phone">
 
-    <label for="group">Group Size:</label>
-    <input type="number" id="group" name="group" min="1" required>
+      <label for="tour">Preferred Tour:</label>
+      <select id="tour" name="tour">
+        <option value="harry">Harry Potter in London</option>
+        <option value="vintage">Vintage London</option>
+        <option value="highlights">London Highlights</option>
+        <option value="foodie">Tastes of London</option>
+        <option value="ripper">Jack the Ripper</option>
+      </select>
 
-    <label for="requests">Special Requests:</label>
-    <textarea id="requests" name="requests" rows="4" placeholder="Let us know anything specific you'd like!"></textarea>
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
 
-    <button type="submit">Submit Booking</button>
-  </form>
-</section>
+      <label for="group">Group Size:</label>
+      <input type="number" id="group" name="group" min="1" required>
+
+      <label for="requests">Special Requests:</label>
+      <textarea id="requests" name="requests" rows="4" placeholder="Let us know anything specific you'd like!"></textarea>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>📍 123 Fictional St, London, UK</p>
+    <p>📞 +44 1234 567890 | ✉️ hello@altlondontours.co.uk</p>
+    <p>
+      Follow us:
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">TikTok</a>
+    </p>
+    <p>&copy; 2025 Alt London Tours</p>
+  </footer>
+
+</body>
+</html>
