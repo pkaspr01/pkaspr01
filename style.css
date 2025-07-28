@@ -621,3 +621,21 @@ img {
   height: auto;
   object-fit: cover;
 }
+.homepage-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
