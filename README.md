@@ -27,6 +27,4 @@ Visit the live site here: [https://pkaspr01.github.io/pkaspr01](https://pkaspr01
 All files are located in the main repository folder. No special setup is required — just open `index.html` in a browser.
 
 ## Author
-[Your Full Name]  
-Student ID: [Your ID]  
-Designing Digitally – [Course Code or Module Name]
+Paula Kasprzyk
