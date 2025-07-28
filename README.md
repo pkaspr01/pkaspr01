@@ -1,16 +1,32 @@
 ## Hi there 👋
 
-<!--
-**pkaspr01/pkaspr01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Alt London Tours – Website Project
 
-Here are some ideas to get you started:
+## Overview
+This is a fictional tour website designed as part of the **Designing Digitally** module. The project was created to demonstrate my understanding of web design, structure, user interface, and user experience principles.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Features
+- Homepage with navigation menu and branding
+- About Us page introducing team members
+- Tours page listing different themed tours
+- Booking page with a mock form
+- FAQ page
+
+## Tools & Technologies Used
+- HTML5
+- CSS3
+- GitHub Pages (for hosting)
+- Visual Studio Code
+
+## Support & Guidance
+Some assistance was received from **ChatGPT** for HTML/CSS structure and debugging. The tool was used as a learning aid to support the technical implementation of the website.
+
+## How to View the Project
+Visit the live site here: [https://pkaspr01.github.io/pkaspr01](https://pkaspr01.github.io/pkaspr01)
+
+All files are located in the main repository folder. No special setup is required — just open `index.html` in a browser.
+
+## Author
+[Your Full Name]  
+Student ID: [Your ID]  
+Designing Digitally – [Course Code or Module Name]
