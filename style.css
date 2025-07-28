@@ -639,3 +639,35 @@ img {
   height: auto;
   border-radius: 8px;
 }
+.intro-flex-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.intro-image {
+  flex: 1;
+  max-width: 400px;
+  text-align: right;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ciao {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
